@@ -1,8 +1,0 @@
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="fundamentals Application Test Suite" annotations="1.5">
-    <test name="Unit Tests">
-        <packages>
-            <package name="jana.struts"/>
-        </packages>
-    </test>
-</suite>
