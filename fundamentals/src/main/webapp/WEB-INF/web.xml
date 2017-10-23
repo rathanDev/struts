@@ -6,7 +6,7 @@
     <display-name>Fundamentals</display-name>
 
     <welcome-file-list>
-        <welcome-file></welcome-file>
+        <welcome-file>index.html</welcome-file>
     </welcome-file-list>
 
     <context-param>
@@ -15,7 +15,7 @@
     </context-param>
 
     <listener>
-        <listener-class>jana.struts.App</listener-class>
+        <listener-class>jana.struts.ServletOne</listener-class>
     </listener>
 
     <servlet>

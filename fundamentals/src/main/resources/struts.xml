@@ -12,5 +12,4 @@
         <action name="" class="" method=""><result type="json"/></action>
     </package>
 
-
 </struts>
