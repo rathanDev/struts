@@ -8,7 +8,7 @@
 
 <body>
 
-welcome <s:property value="username"></s:property>
+Hey, welcome <s:property value="username"></s:property>
 
 </body>
 
