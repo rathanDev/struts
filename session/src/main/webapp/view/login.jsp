@@ -3,9 +3,9 @@
 <html>
 <head></head>
 <body>
-<h1>Login</h1>
+<h1>Login Page</h1>
 
-<s:form action="Welcome">
+<s:form action="login">
     <s:textfield name="username" label="Username" />
     <s:password name="password" label="Password" />
     <s:submit />
