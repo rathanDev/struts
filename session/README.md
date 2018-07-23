@@ -1,0 +1,1 @@
+Apache struts2 with session
