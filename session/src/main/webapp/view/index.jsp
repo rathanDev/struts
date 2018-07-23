@@ -4,6 +4,6 @@
 <head></head>
 <body>
 <h1>Index Page</h1>
-
+<p>Today's date: <%= (new java.util.Date()).toString()%></p>
 </body>
 </html>
