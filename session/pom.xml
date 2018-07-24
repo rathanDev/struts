@@ -33,6 +33,24 @@
 
     <build>
         <finalName>struts-session</finalName>
+        <plugins>
+            <plugin>
+                <groupId>org.eclipse.jetty</groupId>
+                <artifactId>jetty-maven-plugin</artifactId>
+                <version>9.4.7.v20170914</version>
+                <configuration>
+                    <webApp>
+                        <contextPath>/${build.finalName}</contextPath>
+                    </webApp>
+                    <stopKey>CTRL+C</stopKey>
+                    <stopPort>8999</stopPort>
+                    <scanIntervalSeconds>10</scanIntervalSeconds>
+                    <scanTargets>
+                        <scanTarget>src/main/webapp/WEB-INF/web.xml</scanTarget>
+                    </scanTargets>
+                </configuration>
+            </plugin>
+        </plugins>
     </build>
 
 </project>
