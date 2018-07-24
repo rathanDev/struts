@@ -18,6 +18,10 @@
             <result>view/login.jsp</result>
         </action>
 
+        <action name="message" class="org.jana.action.MessageAction" method="execute">
+            <result name="success">view/login.jsp</result>
+        </action>
+
         <action name="welcome" class="org.jana.action.HomeAction">
             <result name="SUCCESS">view/welcome.jsp</result>
         </action>
