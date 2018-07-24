@@ -11,6 +11,10 @@
     <a href="<s:url action='message'/>">message</a>
 </p>
 
+<p>
+    <a href="<s:url action='register'/>">register</a>
+</p>
+
 Please <a href="login.jsp">log in</a>
 
 </body>
