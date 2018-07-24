@@ -6,16 +6,22 @@
 
 <struts>
 
-    <package name="default" namespace="/" extends="struts-default">
+    <constant name="struts.devMode" value="true"/>
+
+    <package name="default" namespace="/view" extends="struts-default">
+
         <!--<action name="">-->
             <!--<result>view/index.jsp</result>-->
         <!--</action>-->
+
         <action name="login">
-            <result>view/login.jsp</result>
+            <result>login.jsp</result>
         </action>
+
         <action name="welcome" class="org.jana.action.HomeAction">
-            <result name="SUCCESS">view/welcome.jsp</result>
+            <result name="SUCCESS">welcome.jsp</result>
         </action>
+
     </package>
 
 </struts>

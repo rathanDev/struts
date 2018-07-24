@@ -3,7 +3,7 @@
 <html>
 <head></head>
 <body>
-<h1>Login Page</h1>
+<h1>Log In Page</h1>
 
 <s:form action="login">
     <s:textfield name="username" label="Username"/>
