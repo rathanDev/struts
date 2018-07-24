@@ -8,7 +8,7 @@ public class MessageAction extends ActionSupport {
     private MessageStore messageStore;
 
     public String execute() {
-        System.out.println("MessageAction execute");
+        System.out.println("MessageAction is executed");
         this.messageStore = new MessageStore();
         return SUCCESS;
     }
