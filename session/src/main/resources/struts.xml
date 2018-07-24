@@ -8,18 +8,18 @@
 
     <constant name="struts.devMode" value="true"/>
 
-    <package name="default" namespace="/view" extends="struts-default">
+    <package name="basic-struts2" extends="struts-default">
 
-        <!--<action name="">-->
-            <!--<result>view/index.jsp</result>-->
-        <!--</action>-->
+        <action name="">
+            <result>view/index.jsp</result>
+        </action>
 
         <action name="login">
-            <result>login.jsp</result>
+            <result>view/login.jsp</result>
         </action>
 
         <action name="welcome" class="org.jana.action.HomeAction">
-            <result name="SUCCESS">welcome.jsp</result>
+            <result name="SUCCESS">view/welcome.jsp</result>
         </action>
 
     </package>
