@@ -5,7 +5,8 @@
 <body>
 <h1>Message</h1>
 
-<p>a sample message</p>
+<p>a sample message below</p>
+<s:property value="messageStore.message"/>
 
 </body>
 </html>

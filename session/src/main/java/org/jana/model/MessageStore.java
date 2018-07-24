@@ -5,7 +5,7 @@ public class MessageStore {
     private String message;
 
     public MessageStore() {
-        this.message = "A sample message";
+        this.message = "Message store's message";
     }
 
     public String getMessage() {
