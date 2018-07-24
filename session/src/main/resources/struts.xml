@@ -7,9 +7,9 @@
 <struts>
 
     <package name="default" namespace="/" extends="struts-default">
-        <action name="">
-            <result>view/index.jsp</result>
-        </action>
+        <!--<action name="">-->
+            <!--<result>view/index.jsp</result>-->
+        <!--</action>-->
         <action name="login">
             <result>view/login.jsp</result>
         </action>
