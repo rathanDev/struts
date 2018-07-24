@@ -11,7 +11,7 @@
     <a href="<s:url action='message'/>">message</a>
 </p>
 
-Please <a href="view/login.jsp">log in</a>
+Please <a href="login.jsp">log in</a>
 
 </body>
 </html>

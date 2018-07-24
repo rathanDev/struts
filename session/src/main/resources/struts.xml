@@ -11,19 +11,19 @@
     <package name="basic-struts2" extends="struts-default">
 
         <action name="">
-            <result>view/index.jsp</result>
+            <result>index.jsp</result>
         </action>
 
         <action name="login">
-            <result>view/login.jsp</result>
+            <result>login.jsp</result>
         </action>
 
         <action name="message" class="org.jana.action.MessageAction" method="execute">
-            <result name="success">view/message.jsp</result>
+            <result name="success">message.jsp</result>
         </action>
 
         <action name="welcome" class="org.jana.action.HomeAction">
-            <result name="SUCCESS">view/welcome.jsp</result>
+            <result name="SUCCESS">welcome.jsp</result>
         </action>
 
     </package>
