@@ -1,5 +1,0 @@
-#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
-#Fri Aug 25 17:05:02 IST 2017
-http\://10.10.10.107\:8081/nexus/content/groups/public/.lastUpdated=1503660902692
-@default-central-https\://repo.maven.apache.org/maven2/.lastUpdated=1503660479876
-https\://repo.maven.apache.org/maven2/.error=Could not transfer artifact org.codehaus.jackson\:jackson-mapper-asl\:pom\:1.9.11 from/to central (https\://repo.maven.apache.org/maven2)\: sun.security.validator.ValidatorException\: PKIX path building failed\: sun.security.provider.certpath.SunCertPathBuilderException\: unable to find valid certification path to requested target

@@ -1,5 +1,0 @@
-#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
-#Wed Oct 04 10:46:12 IST 2017
-http\://10.10.10.107\:8081/nexus/content/groups/public/.lastUpdated=1505904995139
-@default-central-https\://repo.maven.apache.org/maven2/.lastUpdated=1507094172638
-https\://repo.maven.apache.org/maven2/.error=Could not transfer artifact org.glassfish.jersey.media\:jersey-media-json-jackson\:pom\:2.17 from/to central (https\://repo.maven.apache.org/maven2)\: sun.security.validator.ValidatorException\: PKIX path building failed\: sun.security.provider.certpath.SunCertPathBuilderException\: unable to find valid certification path to requested target
