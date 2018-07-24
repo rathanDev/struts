@@ -10,7 +10,7 @@ public class RegisterAction extends ActionSupport {
     private Person person;
 
     public String execute() throws Exception {
-        System.out.println("RegisterAction execute");
+        System.out.println("RegisterAction execute " + person);
         return SUCCESS;
     }
 
