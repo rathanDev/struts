@@ -23,7 +23,7 @@
         </action>
 
         <action name="register" class="org.jana.action.RegisterAction" method="execute">
-            <result name="success">register.jsp</result>
+            <result name="success">registrationResults.jsp</result>
         </action>
 
         <action name="welcome" class="org.jana.action.HomeAction">

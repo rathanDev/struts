@@ -12,7 +12,7 @@
 </p>
 
 <p>
-    <a href="<s:url action='register'/>">register</a>
+    <a href="register.jsp">register</a>
 </p>
 
 Please <a href="login.jsp">log in</a>
