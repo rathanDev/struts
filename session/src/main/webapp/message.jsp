@@ -5,6 +5,7 @@
 <body>
 <h1>Message</h1>
 
+Messaged Count: <s:property value="messagedCount"/>
 <p>a sample message below</p>
 <s:property value="messageStore.message"/>
 
