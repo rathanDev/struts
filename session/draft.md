@@ -1,6 +1,9 @@
 Run jetty server -
 mvn jetty:run
 
+To configure port:
+mvn jetty:run -Djetty.http.port=8081
+
 ---------------------------------------------------------------------------------------------------------------
 
 Reference:
