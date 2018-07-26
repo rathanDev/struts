@@ -9,9 +9,9 @@ public class MessageAction extends ActionSupport {
     private MessageStore messageStore;
 
     public String execute() {
-        this.messagedCount++;
         System.out.println("MessageAction is executed, count:" + getMessagedCount());
         this.messageStore = new MessageStore();
+        messagedCount++;
         return SUCCESS;
     }
 
