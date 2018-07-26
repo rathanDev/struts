@@ -5,7 +5,7 @@
 <body>
 <h1>Message</h1>
 
-Messaged Count: <s:property value="messagedCount"/>
+<p>Messaged Count: <s:property value="messagedCount" />  times</p>
 <p>a sample message below</p>
 <s:property value="messageStore.message"/>
 
