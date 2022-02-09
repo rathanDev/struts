@@ -12,7 +12,7 @@
     <properties>
         <jdk.version>1.7</jdk.version>
         <cxf.version>3.1.6</cxf.version>
-        <struts.version>2.3.16.3</struts.version>
+        <struts.version>2.5.26</struts.version>
     </properties>
 
     <dependencies>
